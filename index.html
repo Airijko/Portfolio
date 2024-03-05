@@ -1,84 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Portfolio</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-
-        header {
-            background-color: #24292e;
-            color: #fff;
-            padding: 1em;
-            text-align: center;
-        }
-
-        section {
-            max-width: 800px;
-            margin: 2em auto;
-            padding: 1em;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h2 {
-            color: #24292e;
-        }
-
-        .project-card {
-            border: 1px solid #ddd;
-            padding: 1em;
-            margin-bottom: 1em;
-            background-color: #fff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        footer {
-            text-align: center;
-            padding: 1em;
-            background-color: #24292e;
-            color: #fff;
-        }
-    </style>
-</head>
-
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Airijko (Jojo) Portfolioo</h1>
+      <h1>Airijko (Jojo) Portfolioo</h1>
     </header>
 
-    <section>
-        <h2>About Me</h2>
-        <p>test</p>
-    </section>
+    <section class="column_sections">
+      <!-- COLUMN ONE -->
+      <div class="project-card">
+        <div class="about-me-card">
+          <h2>About Me</h2>
+          <p>
+            Hey there! I'm Jojo, dreaming of becoming Challenger in software
+            development. Currently on the lookout for cool IT jobs. I'm
+            interested with Websites/Web Apps, Servers, Networking, Security,
+            and Databases.
+          </p>
+        </div>
+        <h2 class="project-heading">Projects</h2>
+      </div>
 
-    <section>
-        <h2>Projects</h2>
+      <div class="column">
         <div class="project-card">
-            <h3>Project 1</h3>
-            <p>Description of Project 1.</p>
-            <a href="https://github.com/Airijko/E-Commerce-Ruby-on-Rails.git" target="_blank">GitHub Repository</a>
+          <h3>Internship - Pixellriver</h3>
+          <p>
+            As a full stack developer during my internship at Red River College,
+            I collaborated within a dynamic team of 6—2 Project Managers, 1
+            Information Security specialist, and 4 Full Stack Developers,
+            including myself.
+          </p>
+          <a>Private Repository</a>
         </div>
 
         <div class="project-card">
-            <h3>Project 2</h3>
-            <p>Description of Project 2.</p>
-            <a href="https://github.com/Airijko/NextJS-PromptTopia-Tutorial.git" target="_blank">GitHub Repository</a>
+          <h3>NextJS - Full Stack Blog</h3>
+          <p>
+            Self-taught Next.js 13 after my first experience creating a React.js
+            with Django for an internship
+          </p>
+          <a
+            href="https://github.com/Airijko/NextJS-PromptTopia-Tutorial.git"
+            target="_blank"
+            >GitHub Repository</a
+          >
         </div>
+
+        <div class="project-card">
+          <h3>Python - Weather Scraper</h3>
+          <p>
+            My first Python with a data-driven app. Conducted web scraping,
+            built dynamic graphs, and integrated database functions when
+            scraping to Save, Delete, and View data.
+          </p>
+          <a
+            href="https://github.com/Airijko/Python-Weather-App.git"
+            target="_blank"
+            >GitHub Repository</a
+          >
+        </div>
+      </div>
+
+      <!-- COLUMN TWO -->
+      <div class="column">
+        <div class="project-card">
+          <h3>Ruby on Rails - E-Commerce</h3>
+          <p>
+            Single-handedly undertook and successfully delivered a project for
+            my Full Stack Development class—a fully functional E-Commerce site.
+          </p>
+          <a
+            href="https://github.com/Airijko/E-Commerce-Ruby-on-Rails.git"
+            target="_blank"
+            >GitHub Repository</a
+          >
+        </div>
+        <div class="project-card">
+          <h3>PHP - League of Legends Site</h3>
+          <p>
+            Developed a PHP Full Stack web app utilizing the League of
+            Legends/Riot Games API.
+          </p>
+          <a
+            href="https://github.com/Airijko/Red-LoL-Website-PHP.git"
+            target="_blank"
+            >GitHub Repository</a
+          >
+        </div>
+
+        <div class="project-card">
+          <h3>ReactJS - Tic-Tac-Toe</h3>
+          <p>
+            Self-taught, one of my early React endeavors—a simple Tic-Tac-Toe
+            game.
+          </p>
+          <a
+            href="https://github.com/Airijko/ReactJS-Tic-Tac-Toe.git"
+            target="_blank"
+            >GitHub Repository</a
+          >
+        </div>
+      </div>
     </section>
 
     <footer>
-        <p>Contact: </p>
-        <p>&copy; 2024 Airijko</p>
+      <p>Contact: LINKEDIN</p>
+      <p>&copy; 2024 Airijko</p>
     </footer>
-</body>
-
+  </body>
 </html>
