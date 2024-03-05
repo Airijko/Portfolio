@@ -15,6 +15,11 @@ header {
 }
 
 .about-me-card {
+  border: 1px solid #ddd;
+  padding: 1em;
+  margin-bottom: 1em;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 100%;
 }
 
@@ -39,12 +44,50 @@ h2 {
   color: #24292e;
 }
 
-.project-card {
+.project-card-two {
   border: 1px solid #ddd;
   padding: 1em;
   margin-bottom: 1em;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-card {
+  position: relative;
+  border: 1px solid #ddd;
+  padding: 1em;
+  margin-bottom: 1em;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #24292e;
+  z-index: -1;
+  transition: width 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  color: #fff;
+}
+
+.project-card:hover::before {
+  width: 100%;
+}
+
+
+.project-link {
+  text-decoration: none;
+  color: inherit;
 }
 
 footer {
