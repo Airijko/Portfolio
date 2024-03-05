@@ -74,7 +74,7 @@ h2 {
   z-index: -1;
   transition: width 0.3s ease-in-out;
 }
-` .project-card:hover {
+.project-card:hover {
   transform: scale(1.05);
   color: #fff;
 }
@@ -94,18 +94,18 @@ h2 {
   gap: 5px;
 }
 
-a[target="_blank"] {
+.contact-link[target="_blank"] {
   position: relative;
   color: #0077b5;
   text-decoration: none;
   transition: color 0.3s ease-in-out;
 }
 
-a[target="_blank"]:hover {
+.contact-link[target="_blank"]:hover {
   color: #004567;
 }
 
-a[target="_blank"]::before {
+.contact-link[target="_blank"]::before {
   content: "";
   position: absolute;
   bottom: -2px;
@@ -116,7 +116,7 @@ a[target="_blank"]::before {
   transition: width 0.3s ease-in-out;
 }
 
-a[target="_blank"]:hover::before {
+.contact-link[target="_blank"]:hover::before {
   width: 100%;
 }
 
