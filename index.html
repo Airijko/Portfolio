@@ -4,122 +4,177 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <title>Portfolio</title>
   </head>
-  <body>
-    <header>
-      <h1>Airijko (Jojo) Portfolioo</h1>
+  <body class="background">
+    <header
+      class="d-flex flex-column justify-content-center align-items-center"
+    >
+      <h1>SOFTWARE DEVELOPER</h1>
+      <span>Pain is temporary. Victory is forever.</span>
     </header>
 
-    <section class="column_sections">
-      <!-- COLUMN ONE -->
-      <div class="about-me-card">
-        <h2>About Me</h2>
-        <p>
-          Hey there! I'm Jojo, dreaming of becoming Challenger in software
-          development. Currently on the lookout for cool IT jobs. I'm interested
-          with Websites/Web Apps, Servers, Networking, Security, and Databases.
-        </p>
-        <div class="contact">
-          <a
-            href="https://www.linkedin.com/in/jonathan-jimena-jr-269124224/"
-            target="_blank"
-            class="contact-link"
-            >Contact me through LinkedIn</a
-          >
-          <img src="https://cdn-icons-png.flaticon.com/256/174/174857.png" />
+    <main class="container-fluid d-flex justify-content-center">
+      <div class="container mb-4">
+        <!-- WORK EXPERIENCE -->
+        <h2 class="mt-4 text-dark">WORK EXPERIENCE</h2>
+        <div class="row">
+          <div class="col">
+            <div class="card text-white">
+              <img
+                src="images/RedRiver.jpg"
+                class="card-img w-100 h-100"
+                style="object-fit: cover"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                <h4 class="card-title">INTERNSHIP - PIXELLRIVER</h4>
+                <div class="card-text">
+                  <ul class="list-unstyled">
+                    <li>Student Lead Project</li>
+                    <li>Django & React</li>
+                    <li>PostgreSQL</li>
+                    <li>Grafana</li>
+                    <li>Material UI</li>
+                  </ul>
+                  <ul class="list-unstyled mb-0">
+                    <li>June 2023 - August 2023</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col image-art"></div>
         </div>
-        <h2 class="project-heading">Projects</h2>
-      </div>
-
-      <div class="column">
-        <div class="project-card-two">
-          <h3>Internship - Pixellriver</h3>
-          <p>
-            As a full stack developer during my internship at Red River College,
-            I collaborated within a dynamic team of 6—2 Project Managers, 1
-            Information Security specialist, and 4 Full Stack Developers,
-            including myself.
-          </p>
-          <a>Private Repository</a>
+        <!-- PROJECTS -->
+        <h2 class="mt-4 text-dark">PROJECTS</h2>
+        <div class="row">
+          <!-- COLUMN ONE -->
+          <div class="col">
+            <div class="card text-white">
+              <img
+                src="images/NextJS.png"
+                class="card-img w-100 h-100"
+                style="object-fit: cover"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                <h4 class="card-title">FULL STACK BLOG</h4>
+                <div class="card-text">
+                  <ul class="list-unstyled">
+                    <li>NextJS 13</li>
+                    <li>Self Taught</li>
+                    <li>MongoDB</li>
+                    <li>TailWind CSS</li>
+                  </ul>
+                  <ul class="list-unstyled mb-0">
+                    <li class="border p-2 bg-white">
+                      <a
+                        href="https://github.com/Airijko/NextJS-PromptTopia-Tutorial"
+                        class="text-decoration-none text-dark"
+                        >Repository Available!</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card text-white">
+              <img
+                src="images/LeagueofLegends.jpg"
+                class="card-img w-100 h-100"
+                style="object-fit: cover"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                <h4 class="card-title">LEAGUE OF LEGENDS API</h4>
+                <div class="card-text">
+                  <ul class="list-unstyled">
+                    <li>PHP</li>
+                    <li>Database Design</li>
+                    <li>Bootstrap 5</li>
+                    <li>Riot API</li>
+                  </ul>
+                  <ul class="list-unstyled mb-0">
+                    <li class="border p-2 bg-white">
+                      <a
+                        href="https://github.com/Airijko/Red-LoL-Website-PHP"
+                        class="text-decoration-none text-dark"
+                        >Repository Available!</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- COLUMN TWO -->
+          <div class="col">
+            <div class="card text-white">
+              <img
+                src="images/Ruby-on-Rails.png"
+                class="card-img w-100 h-100"
+                style="object-fit: cover"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                <h4 class="card-title">E-COMMERCE</h4>
+                <div class="card-text">
+                  <ul class="list-unstyled">
+                    <li>Database Design</li>
+                    <li>Stripe API</li>
+                    <li>Active Admin</li>
+                    <li>Bootstrap5</li>
+                  </ul>
+                  <ul class="list-unstyled mb-0">
+                    <li class="border p-2 bg-white">
+                      <a
+                        href="https://github.com/Airijko/E-Commerce-Ruby-on-Rails"
+                        class="text-decoration-none text-dark"
+                        >Repository Available!</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card text-white">
+              <img
+                src="images/Python.png"
+                class="card-img w-100 h-100"
+                style="object-fit: cover"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                <h4 class="card-title">WEATHER APP</h4>
+                <div class="card-text">
+                  <ul class="list-unstyled">
+                    <li>Weather Scraper</li>
+                    <li>Graphs</li>
+                    <li>Database</li>
+                  </ul>
+                  <ul class="list-unstyled mb-0">
+                    <li class="border p-2 bg-white">
+                      <a
+                        href="https://github.com/Airijko/Python-Weather-App"
+                        class="text-decoration-none text-dark"
+                        >Repository Available!</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <a
-          href="https://github.com/Airijko/NextJS-PromptTopia-Tutorial.git"
-          target="_blank"
-          class="project-link"
-        >
-          <div class="project-card">
-            <h3>NextJS - Full Stack Blog</h3>
-            <p>
-              Self-taught Next.js 13 after my first experience creating a
-              React.js with Django for an internship
-            </p>
-          </div>
-        </a>
-
-        <a
-          href="https://github.com/Airijko/Python-Weather-App.git"
-          target="_blank"
-          class="project-link"
-        >
-          <div class="project-card">
-            <h3>Python - Weather Scraper</h3>
-            <p>
-              My first Python with a data-driven app. Conducted web scraping,
-              built dynamic graphs, and integrated database functions when
-              scraping to Save, Delete, and View data.
-            </p>
-          </div>
-        </a>
       </div>
-
-      <!-- COLUMN TWO -->
-      <div class="column">
-        <a
-          href="https://github.com/Airijko/E-Commerce-Ruby-on-Rails.git"
-          target="_blank"
-          class="project-link"
-        >
-          <div class="project-card">
-            <h3>Ruby on Rails - E-Commerce</h3>
-            <p>
-              Single-handedly undertook and successfully delivered a project for
-              my Full Stack Development class—a fully functional E-Commerce
-              site.
-            </p>
-          </div>
-        </a>
-
-        <a
-          href="https://github.com/Airijko/Red-LoL-Website-PHP.git"
-          target="_blank"
-          class="project-link"
-        >
-          <div class="project-card">
-            <h3>PHP - League of Legends Site</h3>
-            <p>
-              Developed a PHP Full Stack web app utilizing the League of
-              Legends/Riot Games API.
-            </p>
-          </div>
-        </a>
-
-        <a
-          href="https://github.com/Airijko/ReactJS-Tic-Tac-Toe.git"
-          target="_blank"
-          class="project-link"
-        >
-          <div class="project-card">
-            <h3>ReactJS - Tic-Tac-Toe</h3>
-            <p>
-              Self-taught, one of my early React endeavors—a simple Tic-Tac-Toe
-              game.
-            </p>
-          </div>
-        </a>
-      </div>
-    </section>
+    </main>
 
     <footer>
       <p>&copy; 2024 Airijko</p>
