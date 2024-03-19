@@ -1,2 +1,1 @@
-# Portfolio
-My Portfolio
+https://airijko.github.io/Portfolio/
